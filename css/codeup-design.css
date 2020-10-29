@@ -47,15 +47,6 @@ h3{
     text-align: center;
     font-family: 'Anton', sans-serif;
 }
-/*.box1 {*/
-
-/*    text-align: center;*/
-/*    background: #ff0;*/
-/*    border-radius: 65%;*/
-/*    width: 65%;*/
-/*    height: 65%;*/
-/*    border: 10px solid white;*/
-/*}*/
 .container{
     display: flex;
     justify-self: center;
@@ -89,4 +80,74 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.img{
+    width: 80%;
+    border: 5px solid #d7d6d6;
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+}
+.work{
+    justify-content: center;
+    display: flex;
+    margin-top: 8em;
+}
+.ft{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.circle-red {
+    border-radius: 50%;
+    width: 4vh;
+    height: 4vh;
+    background-color: orangered;
+    position: relative;
+    margin: 0 .2em;
+}
+.circle-orange {
+    border-radius: 50%;
+    width: 4vh;
+    height: 4vh;
+    background-color: orange;
+    position: relative;
+    margin: 0 .2em;
+}.circle-green {
+    border-radius: 50%;
+    width: 4vh;
+    height: 4vh;
+     background-color: #50a779;
+    position: relative;
+    margin: 0 .2em;
+}
+.circle-blue {
+    border-radius: 50%;
+    width: 4vh;
+    height: 4vh;
+    background-color: #34b0a1;
+    position: relative;
+    margin: 0 .2em;
+}
+.circle-text{
+    position: absolute;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.small-circles{
+    display: flex;
+    /*flex:*/
+}
+#mainFont>#font>h1{
+    margin: 1em 0 -1em 0;
+}
+#mainFont>#font>h3{
+    margin: 2.5em 0 2em 0;
 }
