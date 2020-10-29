@@ -47,16 +47,46 @@ h3{
     text-align: center;
     font-family: 'Anton', sans-serif;
 }
-.box1 {
+/*.box1 {*/
 
-    text-align: center;
-    background: #ff0;
-    border-radius: 65%;
-    width: 65%;
-    height: 65%;
-    border: 10px solid white;
-}
+/*    text-align: center;*/
+/*    background: #ff0;*/
+/*    border-radius: 65%;*/
+/*    width: 65%;*/
+/*    height: 65%;*/
+/*    border: 10px solid white;*/
+/*}*/
 .container{
     display: flex;
     justify-self: center;
+}
+.circle-without-text {
+    border-radius: 50%;
+    width: 25vh;
+    height: 25vh;
+    background-color: orangered;
+    position: relative;
+    border: 10px solid white;
+    margin: .5em auto;
+}
+.circle-without-text-orange {
+    background-color: orange;
+}
+.circle-without-text-green {
+    background-color: #50a779;
+}
+.circle-without-text-blue {
+    background-color: #34b0a1;
+}
+
+.text-inside-circle {
+    position: absolute;
+    font-family: 'Anton', sans-serif;
+    color: #f0f0f0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
