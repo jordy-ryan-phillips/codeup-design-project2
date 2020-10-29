@@ -142,7 +142,9 @@ h3{
     justify-content: center;
 }
 .small-circles{
+    justify-self: flex-end;
     display: flex;
+    width: 100%;
     /*flex:*/
 }
 #mainFont>#font>h1{
@@ -150,4 +152,11 @@ h3{
 }
 #mainFont>#font>h3{
     margin: 2.5em 0 2em 0;
+}
+#featuredProject{
+    width: 50%;
+}
+.circlesSmall{
+    margin-left: auto;
+    width: 50%;
 }
