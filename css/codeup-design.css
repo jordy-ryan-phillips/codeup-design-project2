@@ -156,12 +156,15 @@ span{
 }
 #image\ man{
     display: none;
+    width: 80%;
 }
 #image\ security{
     display: none;
+    width: 80%;
 }
-#image\ mackbook{
+#image\ macbook{
     display: none;
+    width: 80%;
 }
 @media screen and (min-width: 576px) {
     .sub-title {
@@ -285,8 +288,12 @@ span{
         position: relative;
         left: 6.5em;
     }
+    .imageContainer{
+        max-width: 40%;
+    }
     .img{
         width: 80%;
+
         border: 5px solid #d7d6d6;
         margin: auto;
         display: flex;
@@ -300,9 +307,9 @@ span{
         display: revert;
 
     }
-    #image\ mackbook{
+    #image\ macbook{
         display: revert;
-        w
+
     }
 }
 
