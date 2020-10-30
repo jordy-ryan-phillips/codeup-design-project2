@@ -195,31 +195,31 @@ h3{
         bottom: 25px;
 
     }
-    /*logo*/
-    ul li:first-child {
-        order: 3;
+    li:first-child{
         position: relative;
-        top: 25px;
+       top: 25px;
     }
-    /*service*/
-    ul li:nth-child(2) {
-        order: 2;
+    li:nth-child(2){
+        position: relative;
+        right: 50px;
     }
-
-    ul li:nth-child(3) {
-        order: ;
+    li:nth-child(3){
+        position: relative;
+        left: 35px;
     }
-
-    ul li:nth-child(4) {
-        order: 5;
+    li:nth-child(4){
+        position: relative;
+        left: 50px;
     }
-
-    ul li:nth-child(5) {
-        order: 4;
+    li:nth-child(5){
+        position: relative;
+        right: 50px;
+    }
+    li:last-child{
+        position: relative;
+        right: 35px;
     }
 }
-
-
 
 /*}@media screen and (min-width: 992px) {*/
 /*    .sub-title {text-align: left;}*/
