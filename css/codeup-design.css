@@ -219,6 +219,15 @@ h3{
         position: relative;
         right: 35px;
     }
+    .work{
+        justify-content: center;
+        width: 90%;
+        border-top: solid 2px #e6e6e6;
+        padding: 2em;
+        margin: 1em auto 0 auto;
+    }
+}
+
 }
 
 /*}@media screen and (min-width: 992px) {*/
