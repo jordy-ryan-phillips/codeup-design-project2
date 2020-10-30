@@ -226,9 +226,39 @@ h3{
         padding: 2em;
         margin: 1em auto 0 auto;
     }
+    .circle-without-text {
+        border-radius: 50%;
+        width: 18vh;
+        height: 18vh;
+        background-color: #E6563B;
+        position: relative;
+        border: 10px solid white;
+        margin: auto;
+    }
+    .circle-without-text-orange {
+        background-color: #DEA03D;
+    }
+    .circle-without-text-green {
+        background-color: #7CB06C;
+    }
+    .circle-without-text-blue {
+        background-color: #00ABA9;
+    }
+
+    .text-inside-circle {
+        position: absolute;
+        font-family: 'Anton', sans-serif;
+        color: #f0f0f0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
-}
+
 
 /*}@media screen and (min-width: 992px) {*/
 /*    .sub-title {text-align: left;}*/
