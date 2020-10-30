@@ -140,18 +140,21 @@ h3{
     width: 100%;
     /*flex:*/
 }
-#mainFont>#font>h1{
-    margin: 1em 0 -1em 0;
-}
-#mainFont>#font>h3{
-    margin: 2.5em 0 2em 0;
-}
+/*#mainFont>#font>h1{*/
+/*    margin: 1em 0 -1em 0;*/
+/*}*/
+/*#mainFont>#font>h3{*/
+/*    margin: 2.5em 0 2em 0;*/
+/*}*/
 #featuredProject{
     width: 50%;
 }
 .circlesSmall{
     margin-left: auto;
     width: 50%;
+}
+span{
+    display: block;
 }
 
 @media screen and (min-width: 576px) {
@@ -195,37 +198,45 @@ h3{
         bottom: 25px;
 
     }
-    li:first-child{
+
+    li:first-child {
         position: relative;
-       top: 25px;
+        top: 25px;
     }
-    li:nth-child(2){
+
+    li:nth-child(2) {
         position: relative;
         right: 50px;
     }
-    li:nth-child(3){
+
+    li:nth-child(3) {
         position: relative;
         left: 35px;
     }
-    li:nth-child(4){
+
+    li:nth-child(4) {
         position: relative;
         left: 50px;
     }
-    li:nth-child(5){
+
+    li:nth-child(5) {
         position: relative;
         right: 50px;
     }
-    li:last-child{
+
+    li:last-child {
         position: relative;
         right: 35px;
     }
-    .work{
+
+    .work {
         justify-content: center;
         width: 90%;
         border-top: solid 2px #e6e6e6;
         padding: 2em;
         margin: 1em auto 0 auto;
     }
+
     .circle-without-text {
         border-radius: 50%;
         width: 18vh;
@@ -235,12 +246,15 @@ h3{
         border: 10px solid white;
         margin: auto;
     }
+
     .circle-without-text-orange {
         background-color: #DEA03D;
     }
+
     .circle-without-text-green {
         background-color: #7CB06C;
     }
+
     .circle-without-text-blue {
         background-color: #00ABA9;
     }
@@ -256,8 +270,10 @@ h3{
         align-items: center;
         justify-content: center;
     }
+    span{
+        display: inline;
+    }
 }
-
 
 
 /*}@media screen and (min-width: 992px) {*/
