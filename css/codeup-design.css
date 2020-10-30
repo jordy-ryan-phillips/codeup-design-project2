@@ -155,16 +155,24 @@ h3{
 }
 
 @media screen and (min-width: 576px) {
-    .sub-title {text-align: left;}
-    hr {width: 100%;}
+    .sub-title {
+        text-align: left;
+    }
+
+    hr {
+        width: 100%;
+    }
+
     .brand-name {
         position: relative;
         bottom: 10px;
     }
+
     nav a {
         font-size: .75em;
         color: black;
     }
+
     .nav-background {
         position: absolute;
         margin: 0;
@@ -174,38 +182,45 @@ h3{
         top: 37px;
         z-index: -1000;
     }
+
     nav .nav-item {
         position: relative;
         bottom: 6px;
     }
+
+    ul {
+        display: flex;
+        align-items: center;
+        position: relative;
+        bottom: 25px;
+
+    }
     /*logo*/
-    li:nth-child(1) {
+    ul li:first-child {
         order: 3;
+        position: relative;
+        top: 25px;
     }
-    /*services*/
-    li:nth-child(2) {
-    order: 1;
-    }
-    /*work*/
-    li:nth-child(3) {
+    /*service*/
+    ul li:nth-child(2) {
         order: 2;
     }
-    /*blog*/
-    li:nth-child(4) {
-        order: 3;
 
+    ul li:nth-child(3) {
+        order: ;
     }
-    /*contact*/
-    li:nth-child(5) {
+
+    ul li:nth-child(4) {
+        order: 5;
+    }
+
+    ul li:nth-child(5) {
         order: 4;
     }
-
-nav{
-    align-items: center;
-    display: flex;
 }
 
-}
+
+
 /*}@media screen and (min-width: 992px) {*/
 /*    .sub-title {text-align: left;}*/
 /*    hr {width: 100%;}*/
