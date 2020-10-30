@@ -178,17 +178,28 @@ h3{
         position: relative;
         bottom: 6px;
     }
-    li:nth-child(1){
+    /*logo*/
+    li:nth-child(1) {
         order: 3;
-    }li:nth-child(2){
-        order: 1;
-    }li:nth-child(3){
-        order: 2;
-    }li:nth-child(4){
-        order: 4;
-    }li:nth-child(5){
-        order: 5;
     }
+    /*services*/
+    li:nth-child(2) {
+    order: 1;
+    }
+    /*work*/
+    li:nth-child(3) {
+        order: 2;
+    }
+    /*blog*/
+    li:nth-child(4) {
+        order: 3;
+
+    }
+    /*contact*/
+    li:nth-child(5) {
+        order: 4;
+    }
+
 nav{
     align-items: center;
     display: flex;
