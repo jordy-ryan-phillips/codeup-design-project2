@@ -149,7 +149,7 @@ h3{
 }
 .circlesSmall{
     position: relative;
-    width: 100%;
+
 }
 span{
     display: block;
@@ -286,7 +286,6 @@ span{
     }
     .circlesSmall{
         position: relative;
-        left: 6.5em;
     }
     .imageContainer{
         max-width: 40%;
@@ -311,6 +310,26 @@ span{
         display: revert;
 
     }
+    .circle-red{
+        width: 2vw;
+        height: 2vh;
+    }
+    .circle-orange{
+        width: 2vw;
+        height: 2vh;
+    }
+    .circle-green{
+        width: 2vw;
+        height: 2vh;
+    }
+    .circle-blue{
+        width: 2vw;
+        height: 2vh;
+    }
+    #featuredProject{
+        font-size: .8em;
+    }
+
 }
 
 
