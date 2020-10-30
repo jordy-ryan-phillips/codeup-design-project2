@@ -166,6 +166,9 @@ span{
     display: none;
     width: 80%;
 }
+.small{
+    font-size: small;
+}
 @media screen and (min-width: 576px) {
     .sub-title {
         text-align: left;
@@ -329,7 +332,19 @@ span{
     #featuredProject{
         font-size: .8em;
     }
-
+    h1{
+        position: relative;
+        bottom: 30px;
+    }
+    h3{
+        position: relative;
+        bottom: 30px;
+    }
+    .small{
+        font-size: .1em;
+        position: relative;
+        top: .2em;
+    }
 }
 
 
