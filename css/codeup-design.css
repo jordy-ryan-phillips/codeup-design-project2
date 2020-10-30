@@ -74,6 +74,9 @@ h3{
     align-items: center;
     justify-content: center;
 }
+.big{
+    font-size: x-large;
+}
 .img{
     width: 80%;
     border: 5px solid #d7d6d6;
@@ -140,23 +143,26 @@ h3{
     width: 100%;
     /*flex:*/
 }
-/*#mainFont>#font>h1{*/
-/*    margin: 1em 0 -1em 0;*/
-/*}*/
-/*#mainFont>#font>h3{*/
-/*    margin: 2.5em 0 2em 0;*/
-/*}*/
+
 #featuredProject{
     width: 50%;
 }
 .circlesSmall{
-    margin-left: auto;
-    width: 50%;
+    position: relative;
+    width: 100%;
 }
 span{
     display: block;
 }
-
+#image\ man{
+    display: none;
+}
+#image\ security{
+    display: none;
+}
+#image\ mackbook{
+    display: none;
+}
 @media screen and (min-width: 576px) {
     .sub-title {
         text-align: left;
@@ -231,8 +237,8 @@ span{
 
     .work {
         justify-content: center;
-        width: 90%;
-        border-top: solid 2px #e6e6e6;
+        width: 80%;
+        border-top: solid 2px #dbdbdb;
         padding: 2em;
         margin: 1em auto 0 auto;
     }
@@ -243,7 +249,7 @@ span{
         height: 18vh;
         background-color: #E6563B;
         position: relative;
-        border: 10px solid white;
+        border: 5px solid white;
         margin: auto;
     }
 
@@ -258,7 +264,9 @@ span{
     .circle-without-text-blue {
         background-color: #00ABA9;
     }
-
+    .big{
+        font-size: large;
+    }
     .text-inside-circle {
         position: absolute;
         font-family: 'Anton', sans-serif;
@@ -272,6 +280,26 @@ span{
     }
     span{
         display: inline;
+    }
+    .circlesSmall{
+        position: relative;
+        left: 6.5em;
+    }
+    .img{
+        width: 80%;
+        border: 5px solid #d7d6d6;
+        margin: auto;
+        display: flex;
+        border-radius: 5px;
+    }
+    #image\ man{
+        display: revert;
+    }
+    #image\ security{
+        display: revert;
+    }
+    #image\ mackbook{
+        display: revert;
     }
 }
 
