@@ -25,14 +25,7 @@ nav .nav-item {
     position: relative;
     bottom: 6px;
 }
-@media screen and (min-width: 992px) {
-    .sub-title {text-align: left;}
-    hr {width: 100%;}
-    .brand-name  {
-        position: relative;
-        top: 5px;
-    }
-}
+
 
 h1{
     text-align: center;
@@ -55,19 +48,19 @@ h3{
     border-radius: 50%;
     width: 25vh;
     height: 25vh;
-    background-color: orangered;
+    background-color: #E6563B;
     position: relative;
     border: 10px solid white;
     margin: .5em auto;
 }
 .circle-without-text-orange {
-    background-color: orange;
+    background-color: #DEA03D;
 }
 .circle-without-text-green {
-    background-color: #50a779;
+    background-color: #7CB06C;
 }
 .circle-without-text-blue {
-    background-color: #34b0a1;
+    background-color: #00ABA9;
 }
 
 .text-inside-circle {
@@ -103,32 +96,32 @@ h3{
     border-radius: 50%;
     width: 4vh;
     height: 4vh;
-    background-color: orangered;
+    background-color: #E6563B;
     position: relative;
-    margin: 0 .2em;
+    margin: .2em .3em;
 }
 .circle-orange {
     border-radius: 50%;
     width: 4vh;
     height: 4vh;
-    background-color: orange;
+    background-color: #DEA03D;
     position: relative;
-    margin: 0 .2em;
+    margin: .2em .3em;
 }.circle-green {
     border-radius: 50%;
     width: 4vh;
     height: 4vh;
-     background-color: #50a779;
+     background-color: #7CB06C;
     position: relative;
-    margin: 0 .2em;
+    margin: .2em .3em;
 }
 .circle-blue {
     border-radius: 50%;
     width: 4vh;
     height: 4vh;
-    background-color: #34b0a1;
+    background-color: #00ABA9;
     position: relative;
-    margin: 0 .2em;
+    margin: .2em .3em;
 }
 .circle-text{
     position: absolute;
@@ -160,3 +153,67 @@ h3{
     margin-left: auto;
     width: 50%;
 }
+
+@media screen and (min-width: 576px) {
+    .sub-title {text-align: left;}
+    hr {width: 100%;}
+    .brand-name {
+        position: relative;
+        bottom: 10px;
+    }
+    nav a {
+        font-size: .75em;
+        color: black;
+    }
+    .nav-background {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        height: 59px;
+        width: 100%;
+        top: 37px;
+        z-index: -1000;
+    }
+    nav .nav-item {
+        position: relative;
+        bottom: 6px;
+    }
+    li:nth-child(1){
+        order: 3;
+    }li:nth-child(2){
+        order: 1;
+    }li:nth-child(3){
+        order: 2;
+    }li:nth-child(4){
+        order: 4;
+    }li:nth-child(5){
+        order: 5;
+    }
+nav{
+    align-items: center;
+    display: flex;
+}
+
+}
+/*}@media screen and (min-width: 992px) {*/
+/*    .sub-title {text-align: left;}*/
+/*    hr {width: 100%;}*/
+/*    .brand-name  {*/
+/*        position: relative;*/
+/*        top: 5px;*/
+/*    }*/
+/*}@media screen and (min-width: 992px) {*/
+/*    .sub-title {text-align: left;}*/
+/*    hr {width: 100%;}*/
+/*    .brand-name  {*/
+/*        position: relative;*/
+/*        top: 5px;*/
+/*    }*/
+/*}@media screen and (min-width: 992px) {*/
+/*    .sub-title {text-align: left;}*/
+/*    hr {width: 100%;}*/
+/*    .brand-name  {*/
+/*        position: relative;*/
+/*        top: 5px;*/
+/*    }*/
+/*}*/
