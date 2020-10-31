@@ -510,21 +510,29 @@ span{
     }
 
     .latestImages {
-        float: left;
-        height: 100%;
-        width: 29%;
-
-    .text-wrap {
-
+        /*float: left;*/
+        /*height: 100%;*/
+        /*width: 29%;*/
+        position: relative;
+        right: 50px;
     }
-
-    /*position: relative;*/
     .lastHeaders {
-        text-align: left;
+         position: relative;
+        margin-bottom: auto;
+        font-size: 119%;
+       margin-right: auto;
+        right: 40px;
+        bottom: 15px;
+        font-family: 'Anton', sans-serif;
     }
 
     .lastHeaders > h2 {
         text-align: justify;
+    }
+    .theLatestRow{
+        margin-bottom: 50px;
+        position: relative;
+        bottom: 80px;
     }
 }
 @media screen and (min-width: 992px) {
@@ -550,8 +558,7 @@ span{
     li:first-child {
         order: 1;
         position: relative;
-        margin-right: 100px;
-        right: 130px;
+        margin: auto;
     }
 
     /*li:nth-child(2) {*/
@@ -580,10 +587,9 @@ span{
 
     /*contact*/
     li:last-child {
-        /*margin: auto;*/
+        margin: auto;
         position: relative;
         bottom: 25px;
-        left: 120px;
     }
 
 }
