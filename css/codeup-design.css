@@ -461,6 +461,7 @@ span{
         margin: 3em auto 0 auto;
     }
     .work>p:nth-child(2) {
+        display: unset;
         justify-content: right;
         text-align: start;
         width: 30%;
