@@ -170,7 +170,10 @@ span{
     font-size: small;
 }
 .work>p:nth-child(2) {
-
+    display: none;
+}
+.theLatest-column{
+    display: none;
 }
 @media screen and (min-width: 576px) {
     .sub-title {
@@ -348,6 +351,9 @@ span{
         position: relative;
         top: .2em;
     }
+    .theLatest-column{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -474,9 +480,25 @@ span{
        width: 29%;
         top: -11.2em;
         margin-bottom: auto;
+        word-wrap: anywhere;
     }
     .theLatest-row {
         width: 29%;
+    }
+    .latestImages{
+        float: left;
+        height: 100%;
+        width: 29%;
+        .text-wrap{
+
+        }
+        /*position: relative;*/
+    }
+    .lastHeaders{
+        text-align: left;
+    }
+    .lastHeaders>h2{
+        text-align: justify;
     }
 }
 
