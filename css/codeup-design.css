@@ -357,13 +357,14 @@ span{
     .brand-name {
         position: relative;
         bottom: 80px;
-        left: 175px
+        left: 160px;
+        font-family: 'Abel', sans-serif;
     }
     li:first-child {
         order: 1;
         position: relative;
         margin-right: 100px;
-        right: 50px;
+        right: 130px;
     }
     /*li:nth-child(2) {*/
     /*   */
@@ -372,24 +373,26 @@ span{
     li:nth-child(3) {
         position: relative;
         bottom: 25px;
+        left: 95px;
     }
     /*work*/
     li:nth-child(4) {
         position: relative;
         bottom: 25px;
+        left: 95px;
     }
     /*bolg*/
     li:nth-child(5) {
         position: relative;
         bottom: 25px;
-        left: 75px;
+        left: 120px;
     }
     /*contact*/
     li:last-child {
-        margin: auto;
+        /*margin: auto;*/
         position: relative;
-        top: 18px;
-        left: 50px;
+        bottom: 25px;
+        left: 120px;
     }
     .work>p:first-child {
         justify-content: left;
@@ -404,9 +407,18 @@ span{
         font-size: small;
         margin: 3em auto 0 auto;
     }
-    .imageRows{
+    .image-columns{
+        display: inline-block;
         width: 70%;
     }
+    .imageRows{
+        width: 100%;
+    }
+    .theLatest-column{
+        display: inline-block;
+       width: 20%
+    }
+
 }
 
 @media screen and (min-width: 992px) {
