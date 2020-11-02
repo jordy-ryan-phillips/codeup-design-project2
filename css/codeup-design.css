@@ -175,6 +175,9 @@ span{
 .theLatest-column{
     display: none;
 }
+.last-list{
+    display: none;
+}
 @media screen and (min-width: 576px) {
     .sub-title {
         text-align: left;
@@ -217,32 +220,32 @@ span{
 
     }
 
-    li:first-child {
+   .navicons li:first-child {
         position: relative;
         top: 25px;
     }
 
-    li:nth-child(2) {
+    .navicons li:nth-child(2) {
         position: relative;
         right: 50px;
     }
 
-    li:nth-child(3) {
+    .navicons li:nth-child(3) {
         position: relative;
         left: 35px;
     }
 
-    li:nth-child(4) {
+    .navicons li:nth-child(4) {
         position: relative;
         left: 50px;
     }
 
-    li:nth-child(5) {
+    .navicons li:nth-child(5) {
         position: relative;
         right: 50px;
     }
 
-    li:last-child {
+    .navicons li:last-child {
         position: relative;
         right: 35px;
     }
@@ -372,7 +375,7 @@ span{
         font-family: 'Abel', sans-serif;
     }
 
-    li:first-child {
+    .navicons li:first-child {
         order: 1;
         position: relative;
         margin-right: 100px;
@@ -383,28 +386,28 @@ span{
     /*   */
     /*}*/
     /*services*/
-    li:nth-child(3) {
+    .navicons li:nth-child(3) {
         position: relative;
         bottom: 25px;
         left: 60px;
     }
 
     /*work*/
-    li:nth-child(4) {
+    .navicons li:nth-child(4) {
         position: relative;
         bottom: 25px;
         left: 55px;
     }
 
     /*bolg*/
-    li:nth-child(5) {
+    .navicons li:nth-child(5) {
         position: relative;
         bottom: 25px;
         left: 90px;
     }
 
     /*contact*/
-    li:last-child {
+    .navicons li:last-child {
         /*margin: auto;*/
         position: relative;
         bottom: 25px;
@@ -480,11 +483,14 @@ span{
 
     .work > p:nth-child(2) {
         display: unset;
+        position: relative;
         justify-content: right;
         text-align: start;
         width: 30%;
         font-size: small;
         margin: 1em auto 0 auto;
+        right: 2em;
+        bottom: 1em;
     }
 
     #image\ security{
@@ -501,8 +507,7 @@ span{
         margin-top: auto;
     }
     .image-columns {
-        display: inline-block;
-        width: 70%;
+        /*display: inline-block;*/
     }
 
     .imageRows {
@@ -574,11 +579,38 @@ span{
     /*    bottom: 80px;*/
     /*}*/
     .content{
+        display: inline-block;
+        width: 60%;
         margin-bottom: 100px;
         position: relative;
         bottom: 50px;
-        margin-right: 1em;
+        margin-right: 0;
         margin-left: 1em;
+    }
+    .last-list{
+        width: 14em;
+        position: relative;
+        display: inline-block;
+        padding-inline-start: 0px;
+        bottom: 11.2em;
+    }
+    .service-list {
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        list-style-type: none;
+        margin-left:0px;
+        padding-left:0px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .service-list img {
+        float:left;
+    }
+
+    .service-list p {
+        text-align: left;
+        padding: 0;
     }
 }
 
@@ -603,7 +635,7 @@ span{
         font-family: 'Abel', sans-serif;
     }
 
-    li:first-child {
+   .navicons li:first-child {
         order: 1;
         position: relative;
        left: 35px;
@@ -615,7 +647,7 @@ span{
     /*   */
     /*}*/
     /*services*/
-    li:nth-child(3) {
+    .navicons li:nth-child(3) {
         /*margin-right: 150px;*/
         position: relative;
         top: 5px;
@@ -623,21 +655,21 @@ span{
     }
 
     /*work*/
-    li:nth-child(4) {
+    .navicons li:nth-child(4) {
         position: relative;
         top: 5px;
         left: 70px;
     }
 
     /*bolg*/
-    li:nth-child(5) {
+    .navicons li:nth-child(5) {
         position: relative;
        top: 5px;
         left: 70px;
     }
 
     /*contact*/
-    li:last-child {
+    .navicons li:last-child {
         margin-right: auto;
         position: relative;
         top: 5px;
@@ -649,11 +681,29 @@ span{
     h3{
         bottom: 40px;
     }
-    .work{
-        position: relative;
-        top: 5px;
+
+    .work {
+        justify-content: center;
         width: 80%;
-        right: 25px;
+        border-top: solid 2px #dbdbdb;
+        padding: 2em 0;
+        margin: 1em auto 0 auto;
+    }
+    .work > p:first-child {
+        justify-content: left;
+        width: 70%;
+        font-size: small;
+        margin: 0em auto 0 auto;
+    }
+
+    .work > p:nth-child(2) {
+        position: relative;
+        justify-content: left;
+        text-align: start;
+        width: 30%;
+        font-size: small;
+        margin: 1em auto 0 auto;
+        right: 3em;
     }
     .circle-without-text{
         position: relative;
@@ -661,6 +711,40 @@ span{
         left:225px;
         width: 16vh;
         height: 16vh;
+    }
+    .content{
+        display: inline-block;
+        width: 60%;
+        margin-bottom: 100px;
+        position: relative;
+        top: 1em;
+        margin-right: 0;
+        margin-left: 1em;
+    }
+    .last-list{
+        width: 14em;
+        position: relative;
+        display: inline-block;
+        padding-inline-start: 0px;
+        bottom: 11em;
+    }
+    .service-list {
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        list-style-type: none;
+        margin-left:0px;
+        padding-left:0px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .service-list img {
+        float:left;
+    }
+
+    .service-list p {
+        text-align: left;
+        padding: 0;
     }
 
 }
@@ -683,5 +767,49 @@ span{
         left: 310px;
         width: 16vh;
         height: 16vh;
+    }
+    .content{
+        display: inline-block;
+        width: 60%;
+        margin-bottom: 100px;
+        position: relative;
+        bottom: 50px;
+        margin-right: 0;
+        margin-left: 1em;
+    }
+    .last-list{
+        width: 14em;
+        position: relative;
+        display: inline-block;
+        padding-inline-start: 0px;
+        bottom: 19em;
+        right: 2em;
+    }
+    .service-list {
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        list-style-type: none;
+        margin-left:0px;
+        padding-left:0px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .service-list img {
+        float:left;
+    }
+
+    .service-list p {
+        text-align: left;
+        padding: 0;
+    }
+    .work > p:nth-child(2) {
+        position: relative;
+        justify-content: left;
+        text-align: start;
+        width: 30%;
+        font-size: small;
+        margin: 1em auto 0 auto;
+        right: 1em;
     }
 }
