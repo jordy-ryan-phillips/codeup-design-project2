@@ -723,6 +723,7 @@ span{
         top: 1em;
         margin-right: 0;
         margin-left: 1em;
+        left: 2.5em;
     }
     .last-list{
         width: 14em;
@@ -748,6 +749,10 @@ span{
     .service-list p {
         text-align: left;
         padding: 0;
+    }
+    .maxcontainer{
+        position: relative;
+        right: 4em;
     }
 
 }
@@ -780,12 +785,15 @@ span{
         margin-right: 0;
         margin-left: 1em;
     }
+    .image-columns{
+        width: 90%;
+    }
     .last-list{
         width: 14em;
         position: relative;
         display: inline-block;
         padding-inline-start: 0px;
-        bottom: 19em;
+        bottom: 16.5em;
         right: 2em;
     }
     .service-list {
@@ -814,5 +822,9 @@ span{
         font-size: small;
         margin: 1em auto 0 auto;
         right: 1em;
+    }
+    .maxcontainer{
+        position: relative;
+        right: 4em;
     }
 }
