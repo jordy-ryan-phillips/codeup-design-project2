@@ -614,6 +614,10 @@ span{
         text-align: left;
         padding: 0;
     }
+    .maxcontainer{
+        position: relative;
+        right: 2em;
+    }
 }
 
 @media screen and (min-width: 992px) {
